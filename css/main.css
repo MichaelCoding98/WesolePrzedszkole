@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#833ab4), color-stop(50%, #65fd1d), to(#fcb045));
+  background: linear-gradient(90deg, #833ab4 0%, #65fd1d 50%, #fcb045 100%);
+  font-family: 'Courier Prime', monospace;
+}
+
+.carusel-menu {
+  position: relative;
+}
+
+.carusel-menu .carousel-inner img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -2;
+}
+
+.carusel-menu .carousel-inner h5 {
+  font-size: 2.4rem;
+}
+
+.menu-shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.menu-shadow .menu-title {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-shadow .menu-title h1 {
+  font-size: 4rem;
+  font-family: 'Caveat', cursive;
+  color: #5353af;
+}
+
+.menu-shadow .menu-title h1 span {
+  color: #bed323;
+}
+
+.menu-shadow .menu-title h1 i {
+  color: #5dff23;
+}
+
+#przedszkole img {
+  border-radius: 50%;
+}
+
+.nav-item {
+  font-size: 2.3rem;
+  padding-right: 4rem;
+  margin-left: 4rem;
+}
+
+.nav-item p, .nav-item i {
+  color: #ffffff;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.img-przedszkole {
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+}
+
+.btn-contact {
+  position: relative;
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+}
+
+.slick-photos img {
+  margin-top: 80px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#prices .price-boxs {
+  height: 300px;
+  background: radial-gradient(circle, #3e4f83 0%, #3b2b2e 100%);
+  border-radius: 30px;
+}
+
+#prices .price-boxs p {
+  font-size: 1.5rem;
+}
+
+#prices .price-boxs i {
+  font-size: 4rem;
+}
+
+#prices .price-boxs .btn {
+  font-size: 1.4rem;
+}
+
+#prices .price-boxs-spec {
+  height: 350px;
+  border-radius: 30px;
+  background: radial-gradient(circle, #3e4f83 0%, #3b2b2e 100%);
+}
+
+#prices .price-boxs-spec p {
+  font-size: 1.5rem;
+}
+
+#prices .price-boxs-spec i {
+  font-size: 5rem;
+}
+
+#prices .price-boxs-spec .btn {
+  font-size: 1.4rem;
+}
+
+#contact h2 {
+  font-size: 2.7rem;
+  text-transform: uppercase;
+}
+
+#contact h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#contact p, #contact label {
+  font-size: 1.3rem;
+}
+
+#contact form textarea, #contact form input, #contact form option, #contact form select {
+  font-size: 1.5rem;
+  text-shadow: none;
+}
+
+#contact .contact-logo {
+  font-size: 2rem;
+  color: blue;
+}
+
+#contact .contact-logo i {
+  color: lime;
+}
+
+#contact .contact-logo span {
+  color: red;
+}
+
+.contact-form-bg, .contact-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00240d), color-stop(35%, #096479), color-stop(67%, #0863bb), to(#8d00ff));
+  background: linear-gradient(180deg, #00240d 0%, #096479 35%, #0863bb 67%, #8d00ff 100%);
+  border-radius: 15px;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00240d), to(#3d2650));
+  background: linear-gradient(180deg, #00240d 0%, #3d2650 100%);
+  font-size: 1.5rem;
+}
+
+.heartbeat {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+          animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+@keyframes heartbeat {
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+@media (max-width: 1200px) {
+  .price-boxs-spec, .price-boxs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 450px !important;
+  }
+  .price-boxs-spec .btn, .price-boxs .btn {
+    margin: 0 auto;
+    width: 100px;
+  }
+  #przedszkole p {
+    font-size: 1.4rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

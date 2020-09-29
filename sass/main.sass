@@ -1,0 +1,175 @@
+* 
+    margin: 0 
+    padding: 0 
+    box-sizing: border-box
+    color: #ffffff
+    text-shadow: 1px 1px 1px black
+html
+    font-size: 62.5% 
+    scroll-behavior: smooth
+body 
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(101,253,29,1) 50%, rgba(252,176,69,1) 100%)
+    font-family: 'Courier Prime', monospace
+
+// MENU-HEADER
+.carusel-menu 
+    position: relative
+    .carousel-inner
+        img 
+            height: 500px
+            object-fit: cover
+            z-index: -2
+        h5 
+            font-size: 2.4rem
+    
+.menu-shadow
+    position: absolute 
+    height: 100%
+    width: 100%
+    background-color: rgba(0,0,0,.7)
+    z-index: 1
+    .menu-title 
+        height: 100%
+        display: flex 
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        h1 
+            font-size: 4rem 
+            font-family: 'Caveat', cursive
+            color: #5353af
+            span 
+                color: #bed323
+            i 
+                color: #5dff23
+
+// NAVIGACJA
+#przedszkole
+   
+    img 
+        border-radius: 50%
+.nav-item
+    font-size: 2.3rem
+    padding-right: 4rem
+    margin-left: 4rem
+    p,i
+        color: #ffffff
+        margin: 0
+        font-weight: bold
+        text-transform: uppercase 
+.img-przedszkole
+    box-shadow: 0 0 20px black
+
+.btn-contact
+    position: relative 
+    font-size: 2rem 
+    top: 50%
+    left: 50%
+.slick-photos 
+    img
+        margin-top: 80px
+        height: 250px 
+        object-fit: cover
+#prices
+    .price-boxs
+        height: 300px
+        background: radial-gradient(circle, #3e4f83 0%, #3b2b2e 100%)
+        border-radius: 30px
+        p 
+            font-size: 1.5rem  
+        i 
+            font-size: 4rem   
+        .btn 
+            font-size: 1.4rem
+
+    .price-boxs-spec 
+        height: 350px
+        border-radius: 30px
+        background: radial-gradient(circle, #3e4f83 0%, #3b2b2e 100%)
+        p 
+            font-size: 1.5rem
+        i 
+            font-size: 5rem   
+        .btn 
+            font-size: 1.4rem
+
+
+// CONTACT 
+#contact 
+    h2 
+        font-size: 2.7rem
+        text-transform: uppercase
+    h3 
+        font-size: 2rem 
+        text-transform: uppercase
+    p,label 
+        font-size: 1.3rem
+    form
+        textarea,input,option,select 
+            font-size: 1.5rem
+            text-shadow: none
+    .contact-logo
+        font-size: 2rem
+        color: blue
+        i 
+            color: lime
+        span 
+            color: red
+
+.contact-form-bg,.contact-bg 
+    background: linear-gradient(180deg, rgba(0,36,13,1) 0%, rgba(9,100,121,1) 35%, rgba(8,99,187,1) 67%, rgba(141,0,255,1) 100%)
+    border-radius: 15px
+
+// FOOTER
+footer 
+    background: linear-gradient(180deg, rgba(0,36,13,1) 0%, rgba(61,38,80,1) 100%)
+    font-size: 1.5rem
+
+// ANIMACJE
+
+.heartbeat 
+    animation: heartbeat 1.5s ease-in-out infinite both
+
+
+@keyframes heartbeat  
+    10% 
+        transform: scale(0.91)
+        animation-timing-function: ease-in
+  
+    17% 
+        transform: scale(0.98)
+        animation-timing-function: ease-out
+  
+    33% 
+        transform: scale(0.87)
+        animation-timing-function: ease-in
+  
+    45% 
+        transform: scale(1)
+        animation-timing-function: ease-out
+  
+
+
+
+
+
+
+
+
+
+
+
+@media   ( max-width: 1200px  )
+    .price-boxs-spec,.price-boxs
+        display: flex 
+        flex-direction: column
+        align-content: center 
+        justify-content: center
+        height: 450px !important
+        .btn 
+            margin: 0 auto 
+            width: 100px
+            
+    #przedszkole
+        p 
+            font-size: 1.4rem
