@@ -16,6 +16,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#833ab4), color-stop(50%, #65fd1d), to(#fcb045));
   background: linear-gradient(90deg, #833ab4 0%, #65fd1d 50%, #fcb045 100%);
   font-family: 'Courier Prime', monospace;
+  overflow-x: hidden;
 }
 
 .carusel-menu {
